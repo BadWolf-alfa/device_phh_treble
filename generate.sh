@@ -85,13 +85,13 @@ $apps_script
 $rom_script
 
 PRODUCT_NAME := $target
-PRODUCT_DEVICE := tdgsi_${arch}_$part
-PRODUCT_BRAND := google
-PRODUCT_SYSTEM_BRAND := google
-PRODUCT_MODEL := TrebleDroid $apps_name
+PRODUCT_DEVICE := TB350FU
+PRODUCT_BRAND := Lenovo
+PRODUCT_SYSTEM_BRAND := Lenovo
+PRODUCT_MODEL := Lenovo TB350FU
 
 # Overwrite the inherited "emulator" characteristics
-PRODUCT_CHARACTERISTICS := device
+PRODUCT_CHARACTERISTICS := tablet
 
 PRODUCT_PACKAGES += $extra_packages
 
